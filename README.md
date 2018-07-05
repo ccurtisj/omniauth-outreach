@@ -1,4 +1,4 @@
-# Omniauth::Outreach
+# OmniAuth::Outreach
 
 This project is meant to be a guide for developers using the OAuth2 gem
 to authenticate and authorize with Outreach's APIs.

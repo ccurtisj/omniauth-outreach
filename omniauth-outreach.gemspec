@@ -1,11 +1,9 @@
 # coding: utf-8
-lib = File.expand_path('../lib', __FILE__)
-$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'omniauth-outreach/outreach/version'
+require File.expand_path('../lib/omniauth-outreach/version', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.name          = "omniauth-outreach"
-  gem.version       = Omniauth::Outreach::VERSION
+  gem.version       = OmniAuth::Outreach::VERSION
   gem.authors       = ["Anders Fredriksson", "Outreach Engineering"]
   gem.email         = ["platform@outreach.io"]
 
